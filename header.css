@@ -1,0 +1,27 @@
+header {
+    backdrop-filter: blur(1px);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0));
+    display: flex;
+    position: fixed; 
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+    z-index: 1000; 
+    justify-content: space-around;
+}
+
+.menu-icon {
+    font-size: xx-large;
+    
+}
+
+
+.menu-icon:hover {
+    cursor: pointer;
+    color: rgb(190, 188, 188);
+}
+
+nav ul li {
+    list-style: none;
+}

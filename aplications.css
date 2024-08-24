@@ -1,0 +1,42 @@
+@keyframes show {
+    from {
+        opacity: 0; scale: .1;
+    }
+    to {
+        opacity: 1; scale: 1;
+
+    }
+    
+}
+
+main  {
+    position: relative;
+    overflow: hidden;
+}
+
+
+main .aplications img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;  
+      
+}
+
+main h1 {
+    text-align: center;
+}
+
+.aplications {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(
+        auto-fit, minmax(min(300px, 100%), 1fr)
+    );
+    padding: 29px 0;
+    
+}
+
+main h1 {
+    
+}
+

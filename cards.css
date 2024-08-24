@@ -1,0 +1,113 @@
+
+
+@keyframes cards-shadow {
+    0% {box-shadow:  0 0 15px yellow;}
+    40% {box-shadow: 0 0 15px red;}
+    60% {box-shadow: 0 0 15px blue;}
+    100%{box-shadow: 0 0 15px yellow ;}   
+}
+
+@keyframes fadeInOut {
+        0%, 45% {
+            transform: translateX(0%);
+        }
+        50%, 95% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(0%);
+        }
+    }
+
+    @keyframes fadeInOut2 {
+        0%, 45% {
+            transform: translateX(100%);
+        }
+        50%, 95% {
+            transform: translateX(0%);
+        }
+        100% {
+            transform: translateX(100%);
+        }
+    }
+
+
+.cards {
+    display: flex;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+    
+}
+
+.card1, .card2 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(25, 25, 26);
+}
+.card1 img, .card2 img {
+    width: 100%;
+}
+.card1 {
+    animation: fadeInOut2 10s infinite;
+}
+
+.card2 {
+    animation: fadeInOut 10s infinite;
+    
+}
+.contenido {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.contenido  span{
+    margin: 20px 0;
+}
+
+.active {
+    color: rgb(0, 255, 0);
+    font-weight: 900;
+    text-shadow: 0 0 5px;
+}
+
+.desactive {
+    color: red;
+    font-weight: 900;
+    text-shadow: 0 0 5px;
+
+}
+
+.contenido a {
+    position: absolute;
+    bottom: 50px;
+    border-radius: 50px;
+    box-shadow: 0 0 5px;
+    transition: scale .5s;
+}
+
+.contenido a:hover {
+    scale: 1.1;
+    background-color: rgb(255, 153, 0);
+}
+
+.info-card {
+    background: linear-gradient(rgba(5, 5, 5, .6), rgba(5, 5, 5, .6));
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 60%;
+}
+
+.info-card:hover {
+    opacity: 1;
+}
