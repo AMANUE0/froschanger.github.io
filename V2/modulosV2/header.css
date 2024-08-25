@@ -1,0 +1,45 @@
+header {
+    backdrop-filter: blur(1px);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
+    display: flex;
+    position: fixed; 
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+    z-index: 1000; 
+    justify-content: space-around;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:small;
+    font-weight: 900;
+}
+
+header nav ul li a:hover {
+    background-color: black;
+    
+}
+
+
+
+
+.menu-icon {
+    
+}
+
+
+.menu-icon:hover {
+    cursor: pointer;
+    color: rgb(190, 188, 188);
+}
+
+nav ul li {
+    list-style: none;
+}

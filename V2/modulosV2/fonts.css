@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Odachi';
+    src: url("../Fuentes/odachi/Odachi.otf") format('opentype');
+    font-weight: bold; /* Puedes especificar la variante de peso aquí si es necesario */
+}
+
+@font-face {
+    font-family: 'Frankenstainer';
+    src: url('../Fuentes/frakenstainer/FrankenstainerDemo-lgy2Z.ttf') format('truetype');
+    font-weight: 900; /* Ajusta el peso de la fuente según la fuente misma */
+}

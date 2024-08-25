@@ -117,3 +117,14 @@ a {
         height: 100%;
     }
 }
+
+.version {
+    z-index: 100;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background-color: white;
+    border-radius: 50%;
+    transform: scale(1.5);
+    color: black;
+}
